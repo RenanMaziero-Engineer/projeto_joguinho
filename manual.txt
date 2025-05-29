@@ -1,0 +1,25 @@
+VENV: virtual envoiriment (ambiente virtual). 
+
+    #Cria um ambiente virtual para cada projeto, 
+    onde os recursos instalados dentro da venv
+    só estarão disponíveis nela.#
+
+Coomandos:
+
+- python -m venv nome_do_ambiente #Cria um ambiente virtual.
+
+- nome_do_ambiente\Scripts\activate #Ativa o ambiente virtual.
+
+- pip install nome_do_pacote #-Instala pacotes dentro do ambiente.
+
+- deactivate #Desativa o ambiente virtual.
+
+REQUERIMENTS.TXT: dependencias so projeto.
+
+    #dentro deste arquivo são armazenados os pacotes e recursos 
+    utilizados.#
+
+- pip freeze #Ver dependencias dentro do projeto.
+
+- pip freeze > requeriments.txt #Escreve todas as dependencias no arquivo requeriments.txt.
+
