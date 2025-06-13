@@ -22,8 +22,8 @@ class Menu:
         while True:    
             self.window.blit(source=self.surf, dest=self.rect)
             #define os textos da tela.
-            self.menu_text(50, "Mountain",COLOR_WHITE, ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "Shooter",COLOR_WHITE, ((WIN_WIDTH / 2), 120))
+            self.menu_text(50, "Mountain",COLOR_ORANGE, ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "Shooter",COLOR_ORANGE, ((WIN_WIDTH / 2), 120))
             #cria um loop para pegar os textos que estão em MENU_OPTION e adicionar na tela e dar características.
             for i in range(len(MENU_OPTION)):
                 self.menu_text(30, MENU_OPTION[i],COLOR_WHITE, ((WIN_WIDTH / 2), 200 + 25 * i))
