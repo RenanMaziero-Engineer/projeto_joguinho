@@ -13,7 +13,7 @@ class Menu:
     #construtor da classe.
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuBg.png')#carrega a imagem do jogo.
+        self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()#carrega a imagem do jogo.
         self.rect = self.surf.get_rect(left=0,top=0)#cria o retangulo da tela.
     def run(self, ):
         menu_option = 0
