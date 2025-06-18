@@ -3,11 +3,11 @@
 import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
-from code.const import COLOR_ORANGE
-from code.const import WIN_WIDTH
-from code.const import MENU_OPTION
-from code.const import COLOR_WHITE
-from code.const import COLOR_YELLOW
+from code.Const import COLOR_ORANGE
+from code.Const import WIN_WIDTH
+from code.Const import MENU_OPTION
+from code.Const import COLOR_WHITE
+from code.Const import COLOR_YELLOW
 
 class Menu:
     #construtor da classe.

@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from code.const import  WIN_WIDTH, ENTITY_SPEED
-from code.entity import Entity
+from code.Const import  WIN_WIDTH, ENTITY_SPEED
+from code.Entity import Entity
 
 
 class Background(Entity):

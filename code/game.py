@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import pygame
-from code.const import WIN_WIDTH, WIN_HEIGTH
-from code.const import MENU_OPTION
-from code.level import Level
-from code.menu import Menu
+from code.Const import WIN_WIDTH, WIN_HEIGHT
+from code.Const import MENU_OPTION
+from code.Level import Level
+from code.Menu import Menu
 
 class Game:
     def __init__(self,):
         pygame.init() #inicializa o pygame.
-        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGTH)) #cria uma janela com width = 800 e heigth = 500.
+        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT)) #cria uma janela com width = 800 e heigth = 500.
 
     def run(self, ):
         while True: #manter janela em loop.
